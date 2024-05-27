@@ -1,0 +1,66 @@
+body{
+    background-image: url("7-Star-Hotels.jpg");
+    background-size: cover;
+}
+/*div{
+    height: 550px;
+    width: 1000px;
+    border: 4px solid rgb(18, 117, 150);
+ margin-top: 100px;
+ margin-left: 300px;
+ text-align: center;
+}*/
+body {
+    font-family: Arial, sans-serif;
+    /*background-color: #f2f2f2;*/
+    margin: 0;
+    padding: 0;
+  }
+  form {
+    background-color: #ffffff;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  h2 {
+    text-align: center;
+    color: #333333;
+  }
+  label {
+    font-weight: bold;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  input[type="submit"],
+  input[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 48%;
+  }
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #45a049;
+  }

@@ -1,0 +1,225 @@
+/*#big {
+    background-image: url("7-Star-Hotels.jpg");
+    background-size: cover;
+    margin: 0 0 0 0;
+}*/
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+    text-align: center;
+    align-items: center;
+    background-color: aliceblue;
+    justify-content: space-between;
+    display: flex;
+    top: 0;
+
+}
+
+h1 {
+    color: rgb(13, 189, 234);
+    text-decoration: solid wavy;
+    margin-top: 50px;
+}
+
+.navbar ul {
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+
+
+}
+
+nav {
+    top: 0;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: -800px;
+    margin-top: -50px;
+    overflow: hidden;
+    /* Ensures the image is clipped to the rounded border */
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 8px;
+
+}
+
+.navbar a {
+    display: inline-block;
+    /*padding: 10px 20px;*/
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-right: 30px;
+    /* Increase spacing between links */
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.navbar a:hover {
+    color: rgba(26, 108, 143, 0.252);
+}
+
+.navbar a:last-child {
+    margin-right: 0;
+    /* Remove margin from the last link */
+}
+
+h1 {
+    text-align: center;
+}
+
+/*.container{
+    height: 250px;
+    width: 600px;
+    border: 2px solid black;
+    opacity: 10px;
+    margin-top: 150px;
+    margin-left: 900px;
+    background-color: rgb(24, 135, 169);
+}
+#loginForm{
+  margin-left: 25px
+}
+.sign a{
+    text-decoration: none;
+    color: rgb(23, 164, 174);
+}*/
+.myslides {
+    display: none;
+    border: 0px solid black;
+    border-radius: 20px;
+}
+
+.slideshow {
+    /* max-width: 750px;*/
+    position: relative;
+    /*  margin-top: 50px;
+    /*margin-left: 350px;*/
+}
+
+.prev,
+.next {
+    display: none;
+    /* Hide the buttons */
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 5 ease;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.myslides {
+    width: 100%;
+    /* Set the width to cover the full screen horizontally */
+    position: relative;
+    overflow: hidden;
+    /* Hide overflowing content */
+
+}
+
+#para1 {
+    text-align: left;
+}
+
+.img {
+    height: 311px;
+    width: 500px;
+    margin-left: 1000px;
+    margin-top: -650px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 8px 8px 18px rgba(17, 146, 146, 0.764);
+    overflow: hidden;
+    animation: forwards;
+}
+
+.gmi {
+    height: 333px;
+    width: 500px;
+    margin-left: 1000px;
+    margin-top: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 8px 8px 18px rgba(7, 64, 155, 0.764);
+    overflow: hidden;
+}
+
+#wel {
+    color: rgb(13, 1, 23);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(41, 188, 207);
+    font-size: 25px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.second {
+    height: 281px;
+    width: 500px;
+    margin-left: 900px;
+    margin-top: -250px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 8px 8px 18px rgba(191, 61, 35, 0.764);
+    overflow: hidden;
+}
+
+.third {
+    height: 333px;
+    width: 500px;
+    margin-left: 900px;
+    margin-top: -350px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 8px 8px 18px rgba(35, 181, 191, 0.764);
+    overflow: hidden;
+}
+
+/*.bg{
+    background-color: aquamarine;
+}*/

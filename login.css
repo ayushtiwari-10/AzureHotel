@@ -1,0 +1,24 @@
+body{
+    background-image: url("7-Star-Hotels.jpg");
+    background-size: cover;
+}
+#loginForm{
+    margin-left: 25px
+  }
+  .sign a{
+      text-decoration: dashed underline;
+      color: rgb(15, 60, 63);
+  }
+  .container{
+    height: 250px;
+    width: 600px;
+    border: 2px solid black;
+    opacity: 10px;
+    margin-top: 250px;
+    margin-left: 500px;
+    /*background-color: rgb(24, 135, 169);*/
+    color: aquamarine;
+    backdrop-filter:blur(5px);
+    background-color: rgba(255, 255, 255, 0.377);
+    border-radius: 20px;
+}
